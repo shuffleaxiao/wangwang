@@ -1,0 +1,9 @@
+#定义西瓜价格变量
+price=5.5
+#定义购买重量
+weight=3.5
+#计算金额
+money=price*weight
+#只要购买西瓜就返5元
+money=money-5
+print(money)
