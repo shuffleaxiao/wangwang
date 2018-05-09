@@ -6,4 +6,5 @@ weight=3.5
 money=price*weight
 #只要购买西瓜就返5元
 money=money-5
-print(money)
+print("你应该支付：",money)
+
