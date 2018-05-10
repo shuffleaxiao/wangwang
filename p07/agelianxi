@@ -1,0 +1,14 @@
+year = int(input("您今年多大了:"))
+if year>=1 and year<=10:
+    print("幼年")
+elif year>=11 and year<=20:
+    print("齿年")
+elif year>=21 and year<=30:
+    print("成年")
+elif year>=31 and year<=40:
+    print("熟年")
+elif year>=41 and year<=70:
+    print("老年")
+else:
+    print("您活的时间真长啊,和我家崔二蛋一样.")
+
