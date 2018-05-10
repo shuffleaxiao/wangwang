@@ -1,10 +1,17 @@
-#定义西瓜价格变量
-price=5.5
-#定义购买重量
-weight=3.5
-#计算金额
-money=price*weight
-#只要购买西瓜就返5元
-money=money-5
-print("你应该支付：",money)
-
+'''
+#1.请输入西瓜单价
+price_str = input("请输入西瓜价格:")
+#2.要求西瓜重量
+weight_str = input("你要买多少斤")
+#3.计算金额
+price = float(price_str)
+weight = float(weight_str)
+money = price * weight
+print (money)
+'''
+xgprice = float(input("请输入西瓜价格:"))
+xgweight = float(input("你要买多少斤:"))
+money = xgprice * xgweight
+print("西瓜的价格是%.2f元/斤" % xgprice)
+print("你要买多少斤%.2f斤" % xgweight)
+print("您应支付%.2f元" % money)

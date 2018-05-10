@@ -1,0 +1,12 @@
+print = str(input("卖崔康啦，卖王八了。购买可免费送你一个XXOO，帅哥美女要来点么:"))
+shuru=int(input('如果买请输入(扣1),如果不买请输入(扣2):')
+if shuru == 1:
+    print("我们")
+    xgprice = input("一个王八999，买王八送崔康:")
+    xghowmany = input("请问你要多少崔康---额王八:")
+    price = float(xgprice)
+    howmany = float(xghowmany)
+    money = price * howmany
+    print(money)
+else
+    print("好吧实在遗憾了这么便宜的崔康，额额呸王八")
