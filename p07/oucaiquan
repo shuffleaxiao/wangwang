@@ -1,0 +1,24 @@
+while True:
+    import random
+    shitou = "石头"
+    jiandao = "剪刀"
+    bu = "布"
+    user=input("请你出石头,剪刀,布:")
+    pc = random.randint(1,3)
+#print("电脑出了：%s" % pc)
+    if pc == 1:
+        pcStr = shitou
+        print("电脑出了石头")
+    elif pc == 2:
+        pcStr = jiandao
+        print("电脑出了剪刀")
+    else:
+        pcStr = bu
+        print("电脑出了布")
+    if (user==shitou and pcStr==jiandao) or (user==jiandao and pcStr==bu) or (user==bu and pcStr==shitou):
+        print("有钱真的可以为所欲为")
+        break
+    elif user == pcStr:
+        print("一样样的")
+    else:
+        print("你个弱鸡")
