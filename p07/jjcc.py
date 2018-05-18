@@ -11,7 +11,7 @@ x = float(input("第一个数字:"))
 while True:
     fuhao = input("请你输入运算符号(+ - * /,退出输入q)")
     if fuhao == "q":
-        print("你当前的运算结果是 " , x)
+        print("你当前的运算结果是 " % x)
         break
     y = float(input("第二个数字是:"))
     if fuhao == "+":

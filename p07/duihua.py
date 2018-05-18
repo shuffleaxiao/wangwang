@@ -12,7 +12,7 @@ while True:
     if user == "Dbiossom":
         buxiang()
         speakOne = input("请问这个人物是谁:")
-        if speakOne == "不详之刃":
+        if speakOne == "卡特琳娜":
             print("NB的人生从来不需要解释。")
             break
         else:
@@ -21,7 +21,7 @@ while True:
         manwang()
         speakTwo = input("请问这个人物是谁:")
         if speakTwo == "蛮王":
-            break
             print("欢迎来到英雄世界,我是5秒不败化身")
+            break
         else:
             print("你好笨哦")
